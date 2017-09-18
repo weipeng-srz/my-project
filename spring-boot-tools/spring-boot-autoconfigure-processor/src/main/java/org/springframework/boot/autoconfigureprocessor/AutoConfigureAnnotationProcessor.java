@@ -60,7 +60,7 @@ public class AutoConfigureAnnotationProcessor extends AbstractProcessor {
 	private Map<String, String> annotations;
 
 	private final Properties properties = new Properties();
-
+12312313
 	public AutoConfigureAnnotationProcessor() {
 		Map<String, String> annotations = new LinkedHashMap<String, String>();
 		addAnnotations(annotations);
